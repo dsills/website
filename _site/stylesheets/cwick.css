@@ -1,0 +1,123 @@
+/* http://colorschemedesigner.com/#1T21Ow0w0w0w0 */
+html,body  {
+  background-image: url("/images/goovepaper.png"); 
+  background-attachment:fixed;
+  font-family: 'Istok Web', sans-serif;
+  font-color: #000;
+  font-size: 11pt;
+}
+/*http://subtlepatterns.com/*/
+
+
+header{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.LightBlue{
+  border: 1px solid #000080;
+  background-color: #ADD8E6;
+  background: rgba(173,216,230,0.3);
+}
+
+.inset{
+  margin: 20px;
+  }
+
+.blocked {  
+  -webkit-border-radius:5px;  
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.palewhite{ 
+  border: 1px solid #ccc;
+  background-color: #fff;
+  background: rgba(255,255,255,0.3);
+}
+
+
+ul li {list-style: inside disc;}
+
+pre, code {
+  font-family: 'Inconsolata', monospace;
+  color: #000;
+}
+
+pre {
+  border: 1px solid #ccc;
+  padding: 5px; 
+  line-height: 1.4em;
+  margin: 0.75em 0 0.75em 0;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+}
+
+table {
+		border-spacing: 10px;
+}
+
+th, td {		padding:10px; }
+
+header h1 {
+  font-size: 3em;
+  color:  #000;
+}
+
+header h3 {
+  font-size: 2em;
+  color:  #000;
+}
+
+header h5 {   
+  color:  #000;
+}
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000080;
+  font-family: 'Times New Roman', cursive;
+}
+
+h2 {font-size: 2em; margin-top: 1em; margin-bottom: 0.5em}
+.sidebar h2 {font-size: 1.8em; }
+
+h3 {
+  font-size: 1.5em;
+}
+
+a:hover {color: #006699}
+
+.first {margin-top: 0}
+
+ul.links {margin-left: 0; padding-left: 1em; margin-top: 0}
+ul.links li {display: inline;}
+ul.links li:before { content: "• "; }
+
+blockquote {
+  font: 1em;
+  }
+  
+@media print {
+ html {margin: 1em;}
+ html, body {
+  font-size: 8pt;
+ }
+ footer {display: none}
+ header {margin-top: 0; border-bottom: 3px solid #ccc;}
+ .container {width: 100%}
+ .container .sixteen.columns {width: 100%}
+}
+
+.lab_container { position: relative; width: 75%; margin: 0 auto; padding: 0; }

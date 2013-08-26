@@ -1,0 +1,25 @@
+/* http://colorschemedesigner.com/#2u11Tw0w0w0w0 */
+
+img {background-color: #fff; margin-right: 0.5em}
+
+.article .citation {margin-top: 0em;}
+
+div.citation {margin-top: 1em;}
+.citation ul {list-style: none;}
+.citation img {float: left; }
+.citation .title {font-weight: bold}
+.citation li {line-height: 18px; margin-bottom: 2px; }
+.citation ul {margin-bottom: 0}
+.citation .note {font-size: 90%}
+
+
+.sidebar { padding-top: 1em}
+.sidebar ul {list-style: inside disc; margin-bottom: 1em;}
+.sidebar li {display: inline;}
+.sidebar h3 {font-size: 1.5em;}
+
+.sidebar li:before {
+  content: "â€¢ ";
+	}
+
+a:hover {color: #569700}
